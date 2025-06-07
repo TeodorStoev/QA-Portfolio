@@ -21,7 +21,7 @@ public class LoginShouldFailTast {
     }
     @AfterClass
     public void tearDown(){
-       // driver.quit();
+        driver.quit();
     }
     @Test
     public void testLoggingIntoApplication() throws InterruptedException {
